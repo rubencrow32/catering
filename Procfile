@@ -1,0 +1,1 @@
+web: gunicorn catering_project.wsgi
