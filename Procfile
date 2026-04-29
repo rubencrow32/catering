@@ -1,1 +1,1 @@
-web: gunicorn catering_project.wsgi
+web: python manage.py migrate && python manage.py createsuperuser --noinput && gunicorn catering_project.wsgi
